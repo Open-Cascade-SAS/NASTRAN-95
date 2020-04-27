@@ -72,12 +72,6 @@ call:getArgWithValue "ftn20" "FTN120" "%~1" "%~2" && shift && shift && goto :par
 :: asks for the ftn21 argument and store the value in the variable FTN21
 call:getArgWithValue "ftn21" "FTN21" "%~1" "%~2" && shift && shift && goto :parseArgs
 
-:: asks for the ftn22 argument and store the value in the variable FTN22
-call:getArgWithValue "ftn22" "FTN22" "%~1" "%~2" && shift && shift && goto :parseArgs
-
-:: asks for the ftn23 argument and store the value in the variable FTN23
-call:getArgWithValue "ftn23" "FTN23" "%~1" "%~2" && shift && shift && goto :parseArgs
-
 :: asks for the sof1 argument and store the value in the variable SOF1
 call:getArgWithValue "sof1" "SOF1" "%~1" "%~2" && shift && shift && goto :parseArgs
 
