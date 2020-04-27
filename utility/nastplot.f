@@ -601,8 +601,8 @@ C
       NA1(DOT+3) = KNUM(2)        
       NA1(DOT+4) = KB        
   585 OPEN (UNIT=LU,FILE=NAM32,FORM='FORMATTED',STATUS='NEW',ERR=870    
-C    1     )        
-     1     ,CARRIAGECONTROL='LIST')   ! RECOMMANDED FOR VAX TO GENERATE 
+     1     )        
+C     1     ,CARRIAGECONTROL='LIST')   ! RECOMMANDED FOR VAX TO GENERATE 
 C                                     ! STANDARD LIST FILE        
       LUOPEN = 1        
   590 CALL PSINIT (NOLINE)        
